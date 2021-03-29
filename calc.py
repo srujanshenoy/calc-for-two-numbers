@@ -11,11 +11,11 @@ subtract = x - y
 multiply = x * y
 divide = x / y
 exponent = x ** y
-choice = input("choice: add/subtract/multiply/divide/exponentiation \n")
+choice = input("choice: add/subtract/multiply/divide/exponentiation/exit \n")
 if choice in ("add", "subtract", "multiply", "divide", "exponentiation"):
     if choice == "add":
         print(x, '+', y, '=', add)
-    if choice == "subtact":
+    if choice == "subtract":
         print(x, "-", y, '=', subtract)
     if choice  == "multiply":
         print(x, "x", y, "=", multiply)
@@ -23,3 +23,6 @@ if choice in ("add", "subtract", "multiply", "divide", "exponentiation"):
         print(x, "/", y, "=", divide)
     if choice == "exponentiation":
         print(x, "^", y, "=", exponent)  
+
+
+
